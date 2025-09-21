@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to HabitFlow!!!</Text>
+      <Text style={styles.title}>Welcome to HabitFlow!!</Text>
 
       <View style={styles.buttonGroup}>
         <Button title="View Habits" onPress={() => router.push('habit/list')} />
